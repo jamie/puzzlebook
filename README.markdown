@@ -4,6 +4,10 @@ I decided it would be more fun to write programs to solve the puzzles than solve
 
 # Puzzle Instructions
 
+### Building Blocks
+
+> Using only the letters in the word RED, complete the words in the Building Blocks. Words read across only. Every word contains each letter of RED at least once.
+
 ### Lucky Score
 
 > Fill in the diagram with words reading across to earn the highest possible score. The basic value of each letter is shown in the LETTER VALUE CHART. However, the value of a letter is doubled if it is used in a square with a circle, and tripled in used in a square with a diamond.  Add up your score across for each word, then add up your grand total. You may not repeat a word.

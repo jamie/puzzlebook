@@ -4,7 +4,14 @@ class WordDictionary
     @words = File.read(wordfile).split("\n")
   end
   
-  def [](length)
-    @words.select{|word| word.length == length}
+  def [](filter)
+    case filter
+    when Fixnum
+      @words.select{|word| word.length == length}
+    when Regexp
+      @words.select{|word| word =~ filter}
+    else
+      []
+    end
   end
 end
